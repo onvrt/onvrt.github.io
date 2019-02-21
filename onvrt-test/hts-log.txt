@@ -1,0 +1,13 @@
+HTTrack3.48-1+libhtsjava.so.2 launched on Thu, 21 Feb 2019 17:12:46 at http://firstbeatmedia.com
+(httrack http://firstbeatmedia.com -O onvrt-test/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:12:47	Warning: 	Note: due to firstbeatmedia.com remote robots.txt rules, links beginning with these path will be forbidden: /update.php (see in the options to disable this)
+17:15:11	Warning: 	Warning, link #89 empty
+
+HTTrack Website Copier/3.48-1 mirror complete in 2 minutes 25 seconds : 88 links scanned, 87 files written (3496960 bytes overall) [3524712 bytes received at 24308 bytes/sec]
+(No errors, 2 warnings, 0 messages)
