@@ -1,0 +1,1104 @@
+body.full-width #wrapper {
+  max-width: none; }
+
+.viewport-fullscreen {
+  -webkit-transition: height 0.25s ease-in-out, min-height 0.25s ease-in-out;
+  transition: height 0.25s ease-in-out, min-height 0.25s ease-in-out; }
+
+#v2-loading-display {
+  background-color: #2b333a;
+  color: #556473;
+  height: 0;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1049;
+  -webkit-transition: height 100ms linear 250ms, opacity 300ms ease-in-out;
+  transition: height 100ms linear 250ms, opacity 300ms ease-in-out; }
+  #v2-loading-display .content {
+    margin-top: -18px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transition: margin-top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    transition: margin-top 0.5s ease-in-out, opacity 0.5s ease-in-out; }
+  #v2-loading-display .fa {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    font-size: 30px;
+    height: 36px;
+    line-height: 36px;
+    opacity: 0;
+    width: 36px; }
+    #v2-loading-display .fa:before {
+      -webkit-transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+      transform: scale(0.3); }
+
+body.v2-loading #v2-loading-display,
+body.v2-redirecting #v2-loading-display,
+body.v2-routing-error #v2-loading-display {
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+  height: 100%;
+  opacity: 1; }
+  body.v2-loading #v2-loading-display i,
+  body.v2-redirecting #v2-loading-display i,
+  body.v2-routing-error #v2-loading-display i {
+    opacity: 1; }
+  body.v2-loading #v2-loading-display i:before,
+  body.v2-redirecting #v2-loading-display i:before,
+  body.v2-routing-error #v2-loading-display i:before {
+    transform: scale(1); }
+
+body.v2-loading .loading-content,
+body.v2-redirecting .loading-content {
+  display: block !important; }
+  body.v2-loading .loading-content .loading-text,
+  body.v2-redirecting .loading-content .loading-text {
+    display: block;
+    color: #87919b; }
+
+body.v2-loading .routing-error-content,
+body.v2-redirecting .routing-error-content {
+  display: none !important; }
+
+body.v2-loading .\_pendo-launcher-badge\_,
+body.v2-redirecting .\_pendo-launcher-badge\_ {
+  display: none !important; }
+
+body.v2-routing-error .loading-content {
+  display: none; }
+
+body.v2-routing-error .routing-error-content {
+  display: block; }
+
+body.v2-loading {
+  min-width: 0; }
+  body.v2-loading .navbar-container,
+  body.v2-loading #footer-nav,
+  body.v2-loading #admin-nav,
+  body.v2-loading .browser-notice,
+  body.v2-loading .trialer-countdown {
+    display: none; }
+
+body.v2-redirecting #v2-loading-display {
+  z-index: 9999; }
+
+body {
+  -webkit-transition: padding-top 0.25s ease-in-out;
+  transition: padding-top 0.25s ease-in-out; }
+
+#wrapper {
+  -webkit-transition: padding 0.25 ease-in-out;
+  transition: padding 0.25 ease-in-out; }
+
+.navbar-default, #footer-nav, #admin-nav {
+  -webkit-transition: width 0.25s ease-in-out, height 0.25s ease-in-out, margin 0.25s ease-in-out, padding-top 0.25s ease-in-out, padding-bottom 0.25s ease-in-out, opacity 0.25s ease-in-out;
+  transition: width 0.25s ease-in-out, height 0.25s ease-in-out, margin 0.25s ease-in-out, padding-top 0.25s ease-in-out, padding-bottom 0.25s ease-in-out, opacity 0.25s ease-in-out; }
+
+body.is-focus {
+  background-color: #fff; }
+
+body.is-full-screen {
+  padding-top: 0;
+  background-image: none; }
+  body.is-full-screen .navbar-container,
+  body.is-full-screen #footer-nav,
+  body.is-full-screen #admin-nav,
+  body.is-full-screen .browser-notice,
+  body.is-full-screen .trialer-countdown,
+  body.is-full-screen #live-agent-tab {
+    min-height: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    display: none !important;
+    overflow: hidden; }
+
+body.is-navigation-hidden .trialer-countdown,
+body.is-navigation-hidden .navbar-container {
+  display: none !important; }
+
+body.is-navigation-hidden .candidate-profile-content {
+  margin-top: 0; }
+
+body.app-interview-kit,
+body.app-interview-kitresponse {
+  color: #2b333a; }
+  body.app-interview-kit .tablet,
+  body.app-interview-kit .phone,
+  body.app-interview-kitresponse .tablet,
+  body.app-interview-kitresponse .phone {
+    display: none; }
+  body.app-interview-kit .desktop,
+  body.app-interview-kitresponse .desktop {
+    display: block; }
+  body.app-interview-kit .viewport,
+  body.app-interview-kitresponse .viewport {
+    position: relative;
+    -webkit-transition: margin 0.3s ease-in-out;
+    transition: margin 0.3s ease-in-out; }
+  body.app-interview-kit .panel,
+  body.app-interview-kitresponse .panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-top: 18px;
+    padding: 20px; }
+  body.app-interview-kit .interview-summary,
+  body.app-interview-kitresponse .interview-summary {
+    text-align: center; }
+    body.app-interview-kit .interview-summary .prospect-name,
+    body.app-interview-kitresponse .interview-summary .prospect-name {
+      font-size: 26px;
+      margin: 10px 0 15px; }
+    body.app-interview-kit .interview-summary .job-title,
+    body.app-interview-kit .interview-summary .job-location,
+    body.app-interview-kitresponse .interview-summary .job-title,
+    body.app-interview-kitresponse .interview-summary .job-location {
+      font-weight: 300; }
+    body.app-interview-kit .interview-summary .job-title,
+    body.app-interview-kitresponse .interview-summary .job-title {
+      font-size: 18px; }
+    body.app-interview-kit .interview-summary .job-location,
+    body.app-interview-kitresponse .interview-summary .job-location {
+      color: #87919b;
+      font-size: 13px; }
+  body.app-interview-kit #kit-header,
+  body.app-interview-kitresponse #kit-header {
+    background-color: #5a2d8a;
+    left: 0;
+    line-height: 55px;
+    position: fixed;
+    top: 0;
+    -webkit-transition: line-height 0.3s ease-in-out;
+    transition: line-height 0.3s ease-in-out;
+    width: 100%;
+    z-index: 50; }
+    body.app-interview-kit #kit-header .container,
+    body.app-interview-kitresponse #kit-header .container {
+      margin: 0;
+      overflow: hidden;
+      -webkit-transition: margin 0.3s ease-in-out, width 0.3s ease-in-out;
+      transition: margin 0.3s ease-in-out, width 0.3s ease-in-out; }
+    body.app-interview-kit #kit-header .logo,
+    body.app-interview-kitresponse #kit-header .logo {
+      margin: -6px 0 0;
+      -webkit-transition: height 0.3s ease-in-out, margin 0.3s ease-in-out;
+      transition: height 0.3s ease-in-out, margin 0.3s ease-in-out; }
+    body.app-interview-kit #kit-header .complete-interview,
+    body.app-interview-kitresponse #kit-header .complete-interview {
+      font-size: 12px;
+      line-height: 32px;
+      margin: -3px 0 0;
+      padding: 0 12px;
+      -webkit-transition: font-size 0.3s ease-in-out, line-height 0.3s ease-in-out;
+      transition: font-size 0.3s ease-in-out, line-height 0.3s ease-in-out; }
+    body.app-interview-kit #kit-header .toggle-notepad,
+    body.app-interview-kitresponse #kit-header .toggle-notepad {
+      color: #744c9e;
+      display: none;
+      font-size: 25px;
+      line-height: inherit;
+      position: absolute;
+      right: -11px; }
+  body.app-interview-kit #kit-container,
+  body.app-interview-kitresponse #kit-container {
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    position: absolute;
+    top: 55px;
+    -webkit-transition: top 0.3s ease-in-out width 0.3s ease-in-out;
+    transition: top 0.3s ease-in-out width 0.3s ease-in-out;
+    width: 75%; }
+    body.app-interview-kit #kit-container .interview-profile,
+    body.app-interview-kitresponse #kit-container .interview-profile {
+      padding-right: 0; }
+      body.app-interview-kit #kit-container .interview-profile .interview-summary,
+      body.app-interview-kitresponse #kit-container .interview-profile .interview-summary {
+        padding-bottom: 30px;
+        padding-top: 30px; }
+      body.app-interview-kit #kit-container .interview-profile button,
+      body.app-interview-kitresponse #kit-container .interview-profile button {
+        margin: 10px 0 10px 0; }
+      body.app-interview-kit #kit-container .interview-profile .candidate-profile,
+      body.app-interview-kitresponse #kit-container .interview-profile .candidate-profile {
+        font-size: 14px; }
+        body.app-interview-kit #kit-container .interview-profile .candidate-profile .icon-list > li,
+        body.app-interview-kitresponse #kit-container .interview-profile .candidate-profile .icon-list > li {
+          word-wrap: break-word;
+          margin-bottom: 1em;
+          margin-top: 1em; }
+        body.app-interview-kit #kit-container .interview-profile .candidate-profile .email i::before,
+        body.app-interview-kitresponse #kit-container .interview-profile .candidate-profile .email i::before {
+          font-size: 100%; }
+    body.app-interview-kit #kit-container .interview-details,
+    body.app-interview-kitresponse #kit-container .interview-details {
+      min-height: 230px; }
+      body.app-interview-kit #kit-container .interview-details > div,
+      body.app-interview-kitresponse #kit-container .interview-details > div {
+        height: 100%;
+        top: 0; }
+      body.app-interview-kit #kit-container .interview-details .interview-details-left,
+      body.app-interview-kitresponse #kit-container .interview-details .interview-details-left {
+        margin-right: 225px;
+        padding: 0 10px; }
+        body.app-interview-kit #kit-container .interview-details .interview-details-left h1,
+        body.app-interview-kitresponse #kit-container .interview-details .interview-details-left h1 {
+          font-size: 28px;
+          font-weight: bold;
+          margin-top: 10px;
+          word-wrap: break-word; }
+        body.app-interview-kit #kit-container .interview-details .interview-details-left p,
+        body.app-interview-kitresponse #kit-container .interview-details .interview-details-left p {
+          color: #87919b;
+          line-height: 25px;
+          margin: 0;
+          word-wrap: break-word; }
+      body.app-interview-kit #kit-container .interview-details .interview-details-right,
+      body.app-interview-kitresponse #kit-container .interview-details .interview-details-right {
+        background-color: #f1f3f3;
+        bottom: 0;
+        color: #556473;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 10px 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 225px; }
+        body.app-interview-kit #kit-container .interview-details .interview-details-right .print-blank-kit,
+        body.app-interview-kitresponse #kit-container .interview-details .interview-details-right .print-blank-kit {
+          bottom: 20px;
+          position: absolute;
+          width: 185px; }
+    body.app-interview-kit #kit-container .interview-questions .navigation,
+    body.app-interview-kitresponse #kit-container .interview-questions .navigation {
+      background: #2b333a;
+      display: none;
+      font-size: 9px;
+      line-height: 33px;
+      margin-top: -33px;
+      position: fixed;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      z-index: 49; }
+      body.app-interview-kit #kit-container .interview-questions .navigation a,
+      body.app-interview-kitresponse #kit-container .interview-questions .navigation a {
+        color: #fff; }
+        body.app-interview-kit #kit-container .interview-questions .navigation a.fa,
+        body.app-interview-kitresponse #kit-container .interview-questions .navigation a.fa {
+          color: #87919b;
+          line-height: inherit;
+          padding: 0 15px; }
+    body.app-interview-kit #kit-container .interview-questions textarea,
+    body.app-interview-kitresponse #kit-container .interview-questions textarea {
+      resize: none; }
+    body.app-interview-kit #kit-container .interview-questions .question-response,
+    body.app-interview-kitresponse #kit-container .interview-questions .question-response {
+      padding: 0; }
+      body.app-interview-kit #kit-container .interview-questions .question-response .adhoc-buttons,
+      body.app-interview-kitresponse #kit-container .interview-questions .question-response .adhoc-buttons {
+        display: inline-block; }
+      body.app-interview-kit #kit-container .interview-questions .question-response.saved h4,
+      body.app-interview-kitresponse #kit-container .interview-questions .question-response.saved h4 {
+        color: #87919b; }
+      body.app-interview-kit #kit-container .interview-questions .question-response.saving .save-button .btn,
+      body.app-interview-kitresponse #kit-container .interview-questions .question-response.saving .save-button .btn {
+        cursor: wait;
+        pointer-events: auto; }
+    body.app-interview-kit #kit-container .interview-questions .question,
+    body.app-interview-kitresponse #kit-container .interview-questions .question {
+      cursor: pointer;
+      padding: 11px 39px 11px 15px;
+      position: relative; }
+      body.app-interview-kit #kit-container .interview-questions .question .question-controls,
+      body.app-interview-kitresponse #kit-container .interview-questions .question .question-controls {
+        position: absolute;
+        top: 20px;
+        right: 20px; }
+        body.app-interview-kit #kit-container .interview-questions .question .question-controls .toggle,
+        body.app-interview-kitresponse #kit-container .interview-questions .question .question-controls .toggle {
+          margin: 0 0 0 10px;
+          position: static;
+          display: inline-block; }
+      body.app-interview-kit #kit-container .interview-questions .question h4,
+      body.app-interview-kitresponse #kit-container .interview-questions .question h4 {
+        line-height: 26px;
+        max-width: 80%;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      body.app-interview-kit #kit-container .interview-questions .question .number,
+      body.app-interview-kitresponse #kit-container .interview-questions .question .number {
+        font-weight: 300; }
+      body.app-interview-kit #kit-container .interview-questions .question .toggle,
+      body.app-interview-kitresponse #kit-container .interview-questions .question .toggle {
+        font-size: 14px;
+        margin: -7px 0 0;
+        position: absolute;
+        right: 20px;
+        top: 35px; }
+        body.app-interview-kit #kit-container .interview-questions .question .toggle i,
+        body.app-interview-kitresponse #kit-container .interview-questions .question .toggle i {
+          -webkit-transition: transform 0.3s;
+          transition: transform 0.3s; }
+    body.app-interview-kit #kit-container .interview-questions .response,
+    body.app-interview-kitresponse #kit-container .interview-questions .response {
+      padding: 0 15px; }
+      body.app-interview-kit #kit-container .interview-questions .response.in,
+      body.app-interview-kitresponse #kit-container .interview-questions .response.in {
+        padding-bottom: 15px; }
+      body.app-interview-kit #kit-container .interview-questions .response .rating-select,
+      body.app-interview-kitresponse #kit-container .interview-questions .response .rating-select {
+        padding-right: 5px; }
+        body.app-interview-kit #kit-container .interview-questions .response .rating-select .placeholder,
+        body.app-interview-kitresponse #kit-container .interview-questions .response .rating-select .placeholder {
+          color: #87919b; }
+      body.app-interview-kit #kit-container .interview-questions .response .save-button .btn,
+      body.app-interview-kitresponse #kit-container .interview-questions .response .save-button .btn {
+        opacity: 1;
+        filter: alpha(opacity=100); }
+    body.app-interview-kit #kit-container .interview-questions .row-answer,
+    body.app-interview-kitresponse #kit-container .interview-questions .row-answer {
+      margin-bottom: 10px; }
+    body.app-interview-kit #kit-container .interview-questions .add-question-title,
+    body.app-interview-kitresponse #kit-container .interview-questions .add-question-title {
+      padding: 20px 0 0 20px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600; }
+  body.app-interview-kit .notepad-disabled #kit-container,
+  body.app-interview-kitresponse .notepad-disabled #kit-container {
+    width: 100%; }
+  body.app-interview-kit #interview-notepad,
+  body.app-interview-kitresponse #interview-notepad {
+    bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -webkit-transition: right 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
+    z-index: 100; }
+    body.app-interview-kit #interview-notepad .cke_chrome,
+    body.app-interview-kitresponse #interview-notepad .cke_chrome {
+      border: none; }
+    body.app-interview-kit #interview-notepad .cke_top,
+    body.app-interview-kitresponse #interview-notepad .cke_top {
+      background-color: #361e55 !important;
+      border: 0; }
+    body.app-interview-kit #interview-notepad .cke_contents,
+    body.app-interview-kitresponse #interview-notepad .cke_contents {
+      border-left: 1px solid #c3c8cd;
+      bottom: 0;
+      height: inherit !important;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 55px; }
+    body.app-interview-kit #interview-notepad .cke_wysiwyg_frame,
+    body.app-interview-kitresponse #interview-notepad .cke_wysiwyg_frame {
+      width: 100% !important; }
+    body.app-interview-kit #interview-notepad .cke_inner,
+    body.app-interview-kitresponse #interview-notepad .cke_inner {
+      border: none !important; }
+    body.app-interview-kit #interview-notepad .cke_toolbar,
+    body.app-interview-kitresponse #interview-notepad .cke_toolbar {
+      border: none;
+      margin: 0;
+      padding: 0; }
+      body.app-interview-kit #interview-notepad .cke_toolbar .cke_button,
+      body.app-interview-kitresponse #interview-notepad .cke_toolbar .cke_button {
+        margin: 12px 4px;
+        padding: 6px 8px; }
+        body.app-interview-kit #interview-notepad .cke_toolbar .cke_button.cke_button_on,
+        body.app-interview-kitresponse #interview-notepad .cke_toolbar .cke_button.cke_button_on {
+          background-color: #744c9e; }
+          body.app-interview-kit #interview-notepad .cke_toolbar .cke_button.cke_button_on:hover,
+          body.app-interview-kitresponse #interview-notepad .cke_toolbar .cke_button.cke_button_on:hover {
+            background-color: #744c9e; }
+        body.app-interview-kit #interview-notepad .cke_toolbar .cke_button:hover,
+        body.app-interview-kitresponse #interview-notepad .cke_toolbar .cke_button:hover {
+          border-color: #744c9e;
+          background: transparent; }
+      body.app-interview-kit #interview-notepad .cke_toolbar .cke_button_icon,
+      body.app-interview-kitresponse #interview-notepad .cke_toolbar .cke_button_icon {
+        background: transparent !important;
+        text-align: center; }
+        body.app-interview-kit #interview-notepad .cke_toolbar .cke_button_icon::after,
+        body.app-interview-kitresponse #interview-notepad .cke_toolbar .cke_button_icon::after {
+          color: white !important;
+          font-size: 17px; }
+    body.app-interview-kit #interview-notepad .cke_editable,
+    body.app-interview-kitresponse #interview-notepad .cke_editable {
+      background: blue; }
+    body.app-interview-kit #interview-notepad .cke_bottom,
+    body.app-interview-kitresponse #interview-notepad .cke_bottom {
+      display: none; }
+  body.app-interview-kit #mobile-navigation,
+  body.app-interview-kitresponse #mobile-navigation {
+    background: #2b333a;
+    bottom: -54px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    text-align: center;
+    -webkit-transition: bottom 0.3s ease-in-out;
+    transition: bottom 0.3s ease-in-out;
+    width: 100%;
+    z-index: 110; }
+    body.app-interview-kit #mobile-navigation > li,
+    body.app-interview-kitresponse #mobile-navigation > li {
+      background-color: inherit;
+      color: #fff;
+      float: left;
+      line-height: 50px;
+      position: relative;
+      width: 25%; }
+      body.app-interview-kit #mobile-navigation > li.active,
+      body.app-interview-kitresponse #mobile-navigation > li.active {
+        color: #d42f92; }
+        body.app-interview-kit #mobile-navigation > li.active::after,
+        body.app-interview-kitresponse #mobile-navigation > li.active::after {
+          content: '';
+          border-bottom: 4px solid #2b333a;
+          border-left: 4px solid transparent;
+          border-right: 4px solid transparent;
+          display: block;
+          height: 0;
+          left: 50%;
+          margin-left: -4px;
+          position: absolute;
+          top: -4px;
+          width: 0; }
+    body.app-interview-kit #mobile-navigation.notepad-disabled > li,
+    body.app-interview-kitresponse #mobile-navigation.notepad-disabled > li {
+      width: 33.3333%; }
+      body.app-interview-kit #mobile-navigation.notepad-disabled > li.tab-notepad,
+      body.app-interview-kitresponse #mobile-navigation.notepad-disabled > li.tab-notepad {
+        display: none; }
+  body.app-interview-kit #login,
+  body.app-interview-kitresponse #login {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; }
+    body.app-interview-kit #login.ng-hide,
+    body.app-interview-kitresponse #login.ng-hide {
+      background-color: rgba(0, 0, 0, 0);
+      display: block !important;
+      left: -9999em;
+      opacity: 0;
+      top: -9999em;
+      -webkit-transition: background-color 0.5s ease-in-out, left 0s 0.5s, opacity 0.25s 0.25s ease-in-out, top 0s 0.5s;
+      transition: background-color 0.5s ease-in-out, left 0s 0.5s, opacity 0.25s 0.25s ease-in-out, top 0s 0.5s; }
+      body.app-interview-kit #login.ng-hide .content,
+      body.app-interview-kitresponse #login.ng-hide .content {
+        opacity: 0;
+        top: -200px;
+        -webkit-transition: opacity 0.35s ease-in-out, top 0.5s ease-out;
+        transition: opacity 0.35s ease-in-out, top 0.5s ease-out; }
+    body.app-interview-kit #login > .invalid-login.animating,
+    body.app-interview-kitresponse #login > .invalid-login.animating {
+      animation-name: shake;
+      animation-duration: 1s; }
+    body.app-interview-kit #login .content,
+    body.app-interview-kitresponse #login .content {
+      bottom: 0;
+      color: white;
+      height: 400px;
+      left: 0;
+      margin: auto;
+      padding: 40px 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 250px; }
+      body.app-interview-kit #login .content .interview-summary,
+      body.app-interview-kitresponse #login .content .interview-summary {
+        margin-bottom: 40px; }
+        body.app-interview-kit #login .content .interview-summary .prospect-name,
+        body.app-interview-kitresponse #login .content .interview-summary .prospect-name {
+          font-size: 18px; }
+        body.app-interview-kit #login .content .interview-summary .job-title,
+        body.app-interview-kitresponse #login .content .interview-summary .job-title {
+          font-size: 14px;
+          margin-bottom: 5px; }
+        body.app-interview-kit #login .content .interview-summary .job-location,
+        body.app-interview-kitresponse #login .content .interview-summary .job-location {
+          font-size: 12px; }
+      body.app-interview-kit #login .content .icon-input,
+      body.app-interview-kitresponse #login .content .icon-input {
+        position: relative; }
+        body.app-interview-kit #login .content .icon-input input,
+        body.app-interview-kitresponse #login .content .icon-input input {
+          border-color: #2b333a;
+          padding-left: 30px; }
+          body.app-interview-kit #login .content .icon-input input:focus,
+          body.app-interview-kitresponse #login .content .icon-input input:focus {
+            border-color: #d42f92; }
+        body.app-interview-kit #login .content .icon-input i,
+        body.app-interview-kitresponse #login .content .icon-input i {
+          color: #999;
+          left: 0px;
+          padding: 10px 12px;
+          pointer-events: none;
+          position: absolute; }
+  body.app-interview-kit .modal-custom .modal-content,
+  body.app-interview-kitresponse .modal-custom .modal-content {
+    position: relative; }
+  body.app-interview-kit .modal-custom .modal-body,
+  body.app-interview-kitresponse .modal-custom .modal-body {
+    width: 100%; }
+  body.app-interview-kit .modal-custom.details-dialog .modal-body,
+  body.app-interview-kitresponse .modal-custom.details-dialog .modal-body {
+    font-weight: normal;
+    max-height: 500px;
+    overflow-y: scroll; }
+    body.app-interview-kit .modal-custom.details-dialog .modal-body h1,
+    body.app-interview-kitresponse .modal-custom.details-dialog .modal-body h1 {
+      font-weight: normal;
+      margin: 10px 0 18px; }
+  body.app-interview-kit .modal-custom.details-dialog .list-inline,
+  body.app-interview-kitresponse .modal-custom.details-dialog .list-inline {
+    font-size: 13px; }
+    body.app-interview-kit .modal-custom.details-dialog .list-inline li,
+    body.app-interview-kitresponse .modal-custom.details-dialog .list-inline li {
+      margin-right: 15px; }
+      body.app-interview-kit .modal-custom.details-dialog .list-inline li i,
+      body.app-interview-kitresponse .modal-custom.details-dialog .list-inline li i {
+        margin-right: 3px; }
+  body.app-interview-kit .modal-custom.details-dialog .details-container,
+  body.app-interview-kitresponse .modal-custom.details-dialog .details-container {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 22px; }
+  body.app-interview-kit .modal-custom.resume-dialog .modal-dialog,
+  body.app-interview-kitresponse .modal-custom.resume-dialog .modal-dialog {
+    height: 90%;
+    max-width: 980px;
+    width: 95%; }
+  body.app-interview-kit .modal-custom.resume-dialog .modal-content,
+  body.app-interview-kitresponse .modal-custom.resume-dialog .modal-content {
+    height: 100%;
+    position: relative; }
+  body.app-interview-kit .modal-custom.resume-dialog .modal-body,
+  body.app-interview-kitresponse .modal-custom.resume-dialog .modal-body {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 47px; }
+  body.app-interview-kit .modal-custom.resume-dialog #resume-container,
+  body.app-interview-kitresponse .modal-custom.resume-dialog #resume-container {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  body.app-interview-kit .modal-custom.modal-complete-interview,
+  body.app-interview-kitresponse .modal-custom.modal-complete-interview {
+    overflow: auto;
+    overflow: hidden;
+    top: 0; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .modal-dialog,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .modal-dialog {
+      bottom: auto;
+      left: 50%;
+      margin: -281px 0 0 -375px;
+      position: absolute;
+      top: 50%;
+      width: 750px; }
+    @media (max-height: 634px) {
+      body.app-interview-kit .modal-custom.modal-complete-interview.modal-no-footer .modal-body,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview.modal-no-footer .modal-body {
+        bottom: 0; }
+      body.app-interview-kit .modal-custom.modal-complete-interview .modal-dialog,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .modal-dialog {
+        bottom: 36px;
+        margin-top: 0;
+        top: 36px; }
+      body.app-interview-kit .modal-custom.modal-complete-interview .modal-content,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .modal-content {
+        height: 100%;
+        min-height: 0; }
+      body.app-interview-kit .modal-custom.modal-complete-interview .modal-body,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .modal-body {
+        bottom: 61px;
+        min-height: 0 !important;
+        overflow: auto;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 45px;
+        width: 100%; }
+      body.app-interview-kit .modal-custom.modal-complete-interview .modal-highlight,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .modal-highlight {
+        margin-bottom: -20px; }
+      body.app-interview-kit .modal-custom.modal-complete-interview .modal-footer,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .modal-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%; } }
+    body.app-interview-kit .modal-custom.modal-complete-interview .form-group,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .form-group {
+      margin-bottom: 25px; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .col-left,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-left {
+      padding-right: 5px; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .col-right,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-right {
+      padding-left: 5px; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .col-left button,
+    body.app-interview-kit .modal-custom.modal-complete-interview .col-right button,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-left button,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-right button {
+      height: 80px;
+      line-height: 80px;
+      text-transform: none;
+      vertical-align: middle; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .btn-choice,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .btn-choice {
+      font-size: 18px;
+      font-weight: normal;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: left;
+      width: 100%; }
+      body.app-interview-kit .modal-custom.modal-complete-interview .btn-choice.btn-default,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .btn-choice.btn-default {
+        background: white;
+        border: 1px dashed #556473;
+        color: #87919b; }
+      body.app-interview-kit .modal-custom.modal-complete-interview .btn-choice > .fa,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .btn-choice > .fa {
+        float: right;
+        font-size: 24px;
+        line-height: inherit;
+        text-shadow: none; }
+        body.app-interview-kit .modal-custom.modal-complete-interview .btn-choice > .fa.fa-circle,
+        body.app-interview-kitresponse .modal-custom.modal-complete-interview .btn-choice > .fa.fa-circle {
+          color: #c3c8cd; }
+    body.app-interview-kit .modal-custom.modal-complete-interview textarea,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview textarea {
+      resize: none; }
+  body.app-interview-kit .resume-empty,
+  body.app-interview-kitresponse .resume-empty {
+    white-space: pre-wrap; }
+
+body.app-interview-kitprint,
+body.app-interview-kitresponseprint {
+  background-color: white;
+  font-size: 18px;
+  min-width: 1000px; }
+  body.app-interview-kitprint .viewport,
+  body.app-interview-kitresponseprint .viewport {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 50px; }
+  body.app-interview-kitprint .print-header,
+  body.app-interview-kitprint .page-break,
+  body.app-interview-kitresponseprint .print-header,
+  body.app-interview-kitresponseprint .page-break {
+    display: none; }
+  body.app-interview-kitprint .print-header,
+  body.app-interview-kitresponseprint .print-header {
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    padding-bottom: 12px; }
+    body.app-interview-kitprint .print-header label,
+    body.app-interview-kitresponseprint .print-header label {
+      margin-top: 12px; }
+  body.app-interview-kitprint .page-break,
+  body.app-interview-kitresponseprint .page-break {
+    page-break-before: always;
+    padding-top: 50px; }
+  body.app-interview-kitprint .container-fluid,
+  body.app-interview-kitresponseprint .container-fluid {
+    padding: 0; }
+  body.app-interview-kitprint .details,
+  body.app-interview-kitresponseprint .details {
+    margin-bottom: 100px; }
+    body.app-interview-kitprint .details .list-unstyled li,
+    body.app-interview-kitresponseprint .details .list-unstyled li {
+      margin: 0 0 30px; }
+  body.app-interview-kitprint label,
+  body.app-interview-kitresponseprint label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase; }
+  body.app-interview-kitprint h1,
+  body.app-interview-kitprint .type-duration,
+  body.app-interview-kitresponseprint h1,
+  body.app-interview-kitresponseprint .type-duration {
+    margin-bottom: 50px; }
+  body.app-interview-kitprint h1,
+  body.app-interview-kitresponseprint h1 {
+    font-weight: normal;
+    margin-top: 12px; }
+  body.app-interview-kitprint .preparation,
+  body.app-interview-kitresponseprint .preparation {
+    font-size: 16px;
+    line-height: 30px; }
+  body.app-interview-kitprint .rating,
+  body.app-interview-kitresponseprint .rating {
+    color: #87919b;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; }
+    body.app-interview-kitprint .rating .fa,
+    body.app-interview-kitresponseprint .rating .fa {
+      padding: 0 5px 0 15px; }
+  body.app-interview-kitprint .question-response,
+  body.app-interview-kitresponseprint .question-response {
+    margin-bottom: 170px; }
+    body.app-interview-kitprint .question-response .number,
+    body.app-interview-kitresponseprint .question-response .number {
+      width: 5%; }
+    body.app-interview-kitprint .question-response .question,
+    body.app-interview-kitresponseprint .question-response .question {
+      overflow: hidden;
+      padding-left: 5px;
+      text-overflow: ellipsis;
+      width: 70%; }
+  body.app-interview-kitprint .response-row,
+  body.app-interview-kitresponseprint .response-row {
+    margin-bottom: 150px; }
+    body.app-interview-kitprint .response-row p,
+    body.app-interview-kitresponseprint .response-row p {
+      margin-bottom: 20px; }
+
+@media print {
+  @page {
+    margin: .25in; }
+  body.app-interview-kitprint,
+  body.app-interview-kitresponseprint {
+    background-color: white;
+    min-width: none; }
+    body.app-interview-kitprint #wrapper,
+    body.app-interview-kitresponseprint #wrapper {
+      width: auto; }
+    body.app-interview-kitprint .viewport,
+    body.app-interview-kitresponseprint .viewport {
+      max-width: none; }
+    body.app-interview-kitprint .print-header,
+    body.app-interview-kitprint .page-break,
+    body.app-interview-kitresponseprint .print-header,
+    body.app-interview-kitresponseprint .page-break {
+      display: block; } }
+
+@media only screen and (max-width: 1024px) {
+  body.app-interview-kit .desktop,
+  body.app-interview-kitresponse .desktop {
+    display: none; }
+  body.app-interview-kit .tablet,
+  body.app-interview-kitresponse .tablet {
+    display: block; }
+  body.app-interview-kit #kit-header .container,
+  body.app-interview-kit #kit-container,
+  body.app-interview-kitresponse #kit-header .container,
+  body.app-interview-kitresponse #kit-container {
+    width: 100%; }
+  body.app-interview-kit #kit-header .toggle-notepad,
+  body.app-interview-kitresponse #kit-header .toggle-notepad {
+    display: inline; }
+  body.app-interview-kit #interview-notepad,
+  body.app-interview-kitresponse #interview-notepad {
+    right: -400px;
+    width: 400px; }
+  body.app-interview-kit .notepad-open,
+  body.app-interview-kit .notepad-open #kit-header .container,
+  body.app-interview-kitresponse .notepad-open,
+  body.app-interview-kitresponse .notepad-open #kit-header .container {
+    margin: 0 400px 0 -400px; }
+  body.app-interview-kit .notepad-open #interview-notepad,
+  body.app-interview-kitresponse .notepad-open #interview-notepad {
+    right: 0; }
+  body.app-interview-kit .modal-custom .modal-dialog,
+  body.app-interview-kitresponse .modal-custom .modal-dialog {
+    max-width: 90%; }
+  body.app-interview-kit .modal-custom.details-dialog .modal-body,
+  body.app-interview-kitresponse .modal-custom.details-dialog .modal-body {
+    max-height: 400px; } }
+
+@media only screen and (max-width: 768px) {
+  body.app-interview-kit .adhoc-hide,
+  body.app-interview-kitresponse .adhoc-hide {
+    display: none; }
+  body.app-interview-kit .tablet,
+  body.app-interview-kitresponse .tablet {
+    display: none !important; }
+  body.app-interview-kit .phone,
+  body.app-interview-kitresponse .phone {
+    display: block !important; }
+  body.app-interview-kit .notepad-open,
+  body.app-interview-kit .notepad-open #kit-header .container,
+  body.app-interview-kitresponse .notepad-open,
+  body.app-interview-kitresponse .notepad-open #kit-header .container {
+    margin: 0; }
+  body.app-interview-kit #kit-header,
+  body.app-interview-kitresponse #kit-header {
+    -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.15); }
+    body.app-interview-kit #kit-header .toggle-notepad,
+    body.app-interview-kitresponse #kit-header .toggle-notepad {
+      display: none; }
+  body.app-interview-kit #kit-container,
+  body.app-interview-kitresponse #kit-container {
+    bottom: 50px; }
+    body.app-interview-kit #kit-container .col,
+    body.app-interview-kitresponse #kit-container .col {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 100%; }
+    body.app-interview-kit #kit-container .interview-details,
+    body.app-interview-kit #kit-container .interview-profile,
+    body.app-interview-kit #kit-container .interview-questions,
+    body.app-interview-kit #kit-container #interview-notepad,
+    body.app-interview-kitresponse #kit-container .interview-details,
+    body.app-interview-kitresponse #kit-container .interview-profile,
+    body.app-interview-kitresponse #kit-container .interview-questions,
+    body.app-interview-kitresponse #kit-container #interview-notepad {
+      display: none; }
+      body.app-interview-kit #kit-container .interview-details.active,
+      body.app-interview-kit #kit-container .interview-profile.active,
+      body.app-interview-kit #kit-container .interview-questions.active,
+      body.app-interview-kit #kit-container #interview-notepad.active,
+      body.app-interview-kitresponse #kit-container .interview-details.active,
+      body.app-interview-kitresponse #kit-container .interview-profile.active,
+      body.app-interview-kitresponse #kit-container .interview-questions.active,
+      body.app-interview-kitresponse #kit-container #interview-notepad.active {
+        display: block; }
+    body.app-interview-kit #kit-container .interview-details-questions,
+    body.app-interview-kitresponse #kit-container .interview-details-questions {
+      padding: 0; }
+    body.app-interview-kit #kit-container .interview-details .panel,
+    body.app-interview-kitresponse #kit-container .interview-details .panel {
+      margin: 0;
+      padding: 25px; }
+      body.app-interview-kit #kit-container .interview-details .panel h1,
+      body.app-interview-kitresponse #kit-container .interview-details .panel h1 {
+        margin: 5px 0 20px; }
+      body.app-interview-kit #kit-container .interview-details .panel .icon-list,
+      body.app-interview-kitresponse #kit-container .interview-details .panel .icon-list {
+        color: #87919b;
+        font-size: 13px;
+        font-weight: 300;
+        margin: 0; }
+    body.app-interview-kit #kit-container .interview-details .preparation,
+    body.app-interview-kitresponse #kit-container .interview-details .preparation {
+      line-height: 25px;
+      padding: 25px; }
+    body.app-interview-kit #kit-container .interview-profile,
+    body.app-interview-kitresponse #kit-container .interview-profile {
+      padding-right: 20px; }
+    body.app-interview-kit #kit-container .interview-questions.single-question,
+    body.app-interview-kitresponse #kit-container .interview-questions.single-question {
+      padding-top: 33px; }
+      body.app-interview-kit #kit-container .interview-questions.single-question .navigation,
+      body.app-interview-kitresponse #kit-container .interview-questions.single-question .navigation {
+        display: block; }
+      body.app-interview-kit #kit-container .interview-questions.single-question .question-response,
+      body.app-interview-kitresponse #kit-container .interview-questions.single-question .question-response {
+        display: none; }
+        body.app-interview-kit #kit-container .interview-questions.single-question .question-response.active,
+        body.app-interview-kitresponse #kit-container .interview-questions.single-question .question-response.active {
+          display: block; }
+      body.app-interview-kit #kit-container .interview-questions.single-question .question,
+      body.app-interview-kitresponse #kit-container .interview-questions.single-question .question {
+        cursor: default; }
+        body.app-interview-kit #kit-container .interview-questions.single-question .question h4,
+        body.app-interview-kitresponse #kit-container .interview-questions.single-question .question h4 {
+          font-size: 16px;
+          line-height: 25px; }
+        body.app-interview-kit #kit-container .interview-questions.single-question .question .number,
+        body.app-interview-kit #kit-container .interview-questions.single-question .question .toggle,
+        body.app-interview-kitresponse #kit-container .interview-questions.single-question .question .number,
+        body.app-interview-kitresponse #kit-container .interview-questions.single-question .question .toggle {
+          display: none; }
+      body.app-interview-kit #kit-container .interview-questions.single-question .response,
+      body.app-interview-kitresponse #kit-container .interview-questions.single-question .response {
+        display: block;
+        margin-top: 20px;
+        padding-right: auto; }
+    body.app-interview-kit #kit-container .interview-questions .question-response,
+    body.app-interview-kitresponse #kit-container .interview-questions .question-response {
+      background: transparent;
+      border-bottom: 2px solid #f1f3f3;
+      margin: 0; }
+      body.app-interview-kit #kit-container .interview-questions .question-response .adhoc-buttons,
+      body.app-interview-kitresponse #kit-container .interview-questions .question-response .adhoc-buttons {
+        display: none; }
+      body.app-interview-kit #kit-container .interview-questions .question-response.active .adhoc-buttons,
+      body.app-interview-kitresponse #kit-container .interview-questions .question-response.active .adhoc-buttons {
+        display: inline-block; }
+    body.app-interview-kit #kit-container .interview-questions .question,
+    body.app-interview-kitresponse #kit-container .interview-questions .question {
+      background: #fff; }
+      body.app-interview-kit #kit-container .interview-questions .question h4,
+      body.app-interview-kitresponse #kit-container .interview-questions .question h4 {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px; }
+      body.app-interview-kit #kit-container .interview-questions .question .number,
+      body.app-interview-kitresponse #kit-container .interview-questions .question .number {
+        font-weight: inherit; }
+      body.app-interview-kit #kit-container .interview-questions .question .toggle,
+      body.app-interview-kitresponse #kit-container .interview-questions .question .toggle {
+        font-size: 11px; }
+    body.app-interview-kit #kit-container .interview-questions .response,
+    body.app-interview-kitresponse #kit-container .interview-questions .response {
+      display: none;
+      height: auto !important; }
+      body.app-interview-kit #kit-container .interview-questions .response .rating-select,
+      body.app-interview-kitresponse #kit-container .interview-questions .response .rating-select {
+        padding-bottom: 20px;
+        padding-right: 20px; }
+  body.app-interview-kit #interview-notepad,
+  body.app-interview-kitresponse #interview-notepad {
+    padding: 0 !important;
+    position: absolute;
+    right: auto !important; }
+    body.app-interview-kit #interview-notepad .cke_contents,
+    body.app-interview-kitresponse #interview-notepad .cke_contents {
+      border: none; }
+  body.app-interview-kit #mobile-navigation,
+  body.app-interview-kitresponse #mobile-navigation {
+    bottom: 0; } }
+
+@media only screen and (max-width: 480px) {
+  body.app-interview-kit #kit-header,
+  body.app-interview-kitresponse #kit-header {
+    line-height: 45px; }
+    body.app-interview-kit #kit-header .container,
+    body.app-interview-kitresponse #kit-header .container {
+      padding: 0 15px; }
+    body.app-interview-kit #kit-header .logo,
+    body.app-interview-kitresponse #kit-header .logo {
+      height: 17px;
+      margin: -3px 0 0; }
+    body.app-interview-kit #kit-header .complete-interview,
+    body.app-interview-kitresponse #kit-header .complete-interview {
+      font-size: 10px;
+      line-height: 24px; }
+  body.app-interview-kit #kit-container,
+  body.app-interview-kitresponse #kit-container {
+    top: 45px; }
+  body.app-interview-kit .modal-custom,
+  body.app-interview-kitresponse .modal-custom {
+    font-size: 12px;
+    font-weight: 600;
+    top: 0 !important; }
+    body.app-interview-kit .modal-custom .modal-dialog,
+    body.app-interview-kitresponse .modal-custom .modal-dialog {
+      bottom: 0 !important;
+      height: auto !important;
+      left: 0 !important;
+      margin: 0 !important;
+      max-width: none;
+      position: absolute;
+      top: 0 !important;
+      width: 100% !important; }
+    body.app-interview-kit .modal-custom .modal-header,
+    body.app-interview-kitresponse .modal-custom .modal-header {
+      padding-bottom: 13px;
+      padding-top: 13px; }
+      body.app-interview-kit .modal-custom .modal-header h1,
+      body.app-interview-kit .modal-custom .modal-header .btn-link,
+      body.app-interview-kitresponse .modal-custom .modal-header h1,
+      body.app-interview-kitresponse .modal-custom .modal-header .btn-link {
+        font-size: 15px; }
+    body.app-interview-kit .modal-custom .modal-content,
+    body.app-interview-kit .modal-custom form,
+    body.app-interview-kitresponse .modal-custom .modal-content,
+    body.app-interview-kitresponse .modal-custom form {
+      height: 100%; }
+    body.app-interview-kit .modal-custom .modal-body,
+    body.app-interview-kitresponse .modal-custom .modal-body {
+      bottom: 0;
+      max-height: none !important;
+      position: absolute;
+      top: 45px; }
+    body.app-interview-kit .modal-custom.details-dialog .job-heading,
+    body.app-interview-kitresponse .modal-custom.details-dialog .job-heading {
+      background: #f1f3f3;
+      margin: -20px -20px 0;
+      padding: 20px; }
+    body.app-interview-kit .modal-custom.details-dialog .list-inline,
+    body.app-interview-kitresponse .modal-custom.details-dialog .list-inline {
+      font-size: 11px;
+      line-height: 22px; }
+      body.app-interview-kit .modal-custom.details-dialog .list-inline li,
+      body.app-interview-kitresponse .modal-custom.details-dialog .list-inline li {
+        display: block; }
+        body.app-interview-kit .modal-custom.details-dialog .list-inline li i,
+        body.app-interview-kitresponse .modal-custom.details-dialog .list-inline li i {
+          color: #5a2d8a;
+          width: 1.5em; }
+    body.app-interview-kit .modal-custom.details-dialog .details-container,
+    body.app-interview-kitresponse .modal-custom.details-dialog .details-container {
+      font-size: 13px;
+      line-height: 21px; }
+    body.app-interview-kit .modal-custom.resume-dialog .modal-body,
+    body.app-interview-kitresponse .modal-custom.resume-dialog .modal-body {
+      top: 45px; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .col-left,
+    body.app-interview-kit .modal-custom.modal-complete-interview .col-right,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-left,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-right {
+      width: 100% !important;
+      padding-left: 20px;
+      padding-right: 20px; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .col-left,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-left {
+      margin-bottom: 10px; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .col-datepicker,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-datepicker {
+      width: 100% !important; }
+      body.app-interview-kit .modal-custom.modal-complete-interview .col-datepicker .col-date,
+      body.app-interview-kit .modal-custom.modal-complete-interview .col-datepicker .col-time,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-datepicker .col-date,
+      body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-datepicker .col-time {
+        width: 100% !important;
+        padding-left: 20px;
+        padding-right: 20px; }
+        body.app-interview-kit .modal-custom.modal-complete-interview .col-datepicker .col-date .form-group,
+        body.app-interview-kit .modal-custom.modal-complete-interview .col-datepicker .col-time .form-group,
+        body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-datepicker .col-date .form-group,
+        body.app-interview-kitresponse .modal-custom.modal-complete-interview .col-datepicker .col-time .form-group {
+          margin-bottom: 10px; }
+    body.app-interview-kit .modal-custom.modal-complete-interview .modal-footer,
+    body.app-interview-kitresponse .modal-custom.modal-complete-interview .modal-footer {
+      bottom: 0;
+      position: absolute;
+      width: 100%; } }
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px); }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px); } }
+
+noscript div {
+  margin-left: 24px; }
+  noscript div h2 {
+    font-size: 24px; }
+  noscript div p {
+    font-size: 16px; }
