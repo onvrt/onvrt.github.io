@@ -161,11 +161,18 @@ footer .wrapper {
 	height: 507px;
 	background-image: url(../img/visual.jpg);
 	background-repeat: no-repeat;}
-#visual h1 {
+#visual h1 h2 {
 	font-size: 2em;
 	font-weight: 300;
 	color: #0290be;}
 #visual h1:after {
+    background-color: #0290BE;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0.5em 0;
+    width: 40%;}
+#visual h2:after {
     background-color: #0290BE;
     content: "";
     display: block;
