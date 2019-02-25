@@ -161,7 +161,11 @@ footer .wrapper {
 	height: 507px;
 	background-image: url(../img/visual.jpg);
 	background-repeat: no-repeat;}
-#visual h1 h2 {
+#visual h1 {
+	font-size: 2em;
+	font-weight: 300;
+	color: #0290be;}
+#visual h2 {
 	font-size: 2em;
 	font-weight: 300;
 	color: #0290be;}
