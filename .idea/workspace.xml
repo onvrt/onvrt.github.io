@@ -2,7 +2,181 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e65312f8-bb8d-47da-a744-d8b2370325aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/arrs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/circle-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/circle-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/close-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/footer-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/header-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/jobs-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/mapicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/biker-planet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/black-scene.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/christian-lifestyle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/dating-seniors.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/farmers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/fitness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/hsv-singles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/interracial-romance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/jsingles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/lutheran.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/plus-sized-hearts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/praying.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/singlemoms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/tatoo-lovers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/portfolio/wheel-chair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/39_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/39_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/social/62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/testimonial-ana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/testimonial-barbara-ray.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/testimonial-bosko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/testimonial-milos-radulovic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/toggle-arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/visual-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/visual.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/img/xclose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/js/jquery.jscrollpane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/js/jquery.jscrollpane.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/js/mousewheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/assets/js/rhinoslider-1.05.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldonvrt/culture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/arrs.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/arrs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/circle-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/circle-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/circle-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/circle-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/circle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/close-sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/close-sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/footer-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/footer-top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/header-bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/header-bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/jobs-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/jobs-top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/mapicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/mapicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/pattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/pattern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/biker-planet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/biker-planet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/black-scene.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/black-scene.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/christian-lifestyle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/christian-lifestyle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/dating-seniors.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/dating-seniors.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/farmers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/farmers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/fitness.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/fitness.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/hsv-singles.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/hsv-singles.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/interracial-romance.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/interracial-romance.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/jsingles.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/jsingles.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/lutheran.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/lutheran.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/plus-sized-hearts.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/plus-sized-hearts.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/praying.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/praying.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/singlemoms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/singlemoms.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/tatoo-lovers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/tatoo-lovers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/wheel-chair.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/wheel-chair.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social-icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social-icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/31.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/34.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/39_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/39_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/39_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/39_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/40.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/41.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/42.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/45.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/47.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/49.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/52.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/53.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/54.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/55.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/56.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/57.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/58.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/59.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/60.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/61.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/61.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/social/62.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/social/62.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/testimonial-ana.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/testimonial-ana.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/testimonial-barbara-ray.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/testimonial-barbara-ray.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/testimonial-bosko.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/testimonial-bosko.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/testimonial-milos-radulovic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/testimonial-milos-radulovic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/toggle-arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/toggle-arrows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/visual-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/visual-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/visual.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/visual.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/img/xclose.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/xclose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/js/easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/easing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/js/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/js/jquery.jscrollpane.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.jscrollpane.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/js/jquery.jscrollpane.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.jscrollpane.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/js/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/modernizr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/js/mousewheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/mousewheel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/assets/js/rhinoslider-1.05.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/rhinoslider-1.05.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/culture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldonvrt/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onvrt.com/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldonvrt/portfolio.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +190,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onvrt.com/index.html">
+        <entry file="file://$PROJECT_DIR$/oldonvrt/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="723">
               <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
@@ -29,7 +203,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onvrt.com/culture.html">
+        <entry file="file://$PROJECT_DIR$/assets/js/easing.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldonvrt/culture.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="633">
               <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
@@ -38,7 +226,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onvrt.com/portfolio.html">
+        <entry file="file://$PROJECT_DIR$/oldonvrt/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="603">
               <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
@@ -46,17 +234,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/onvrt.com/contact.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldonvrt/contact.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="162" column="34" lean-forward="true" selection-start-line="162" selection-start-column="34" selection-end-line="162" selection-end-column="34" />
+              <caret line="162" column="94" selection-start-line="162" selection-start-column="94" selection-end-line="162" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onvrt.com/assets/css/style.css">
+        <entry file="file://$PROJECT_DIR$/CNAME">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldonvrt/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="386">
               <caret line="338" column="28" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
@@ -65,12 +258,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onvrt.com/assets/img/logo.png">
+        <entry file="file://$PROJECT_DIR$/oldonvrt/assets/img/logo.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onvrt.com/assets/img/jobs-top.png">
+        <entry file="file://$PROJECT_DIR$/oldonvrt/assets/img/jobs-top.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -95,6 +288,8 @@
       <find>follow us on</find>
       <find>id=&quot;social</find>
       <find>contact us</find>
+      <find>Contac Us</find>
+      <find>Contact Us</find>
     </findStrings>
     <replaceStrings>
       <replace>Onvrt</replace>
@@ -113,9 +308,10 @@
         <option value="$PROJECT_DIR$/firstbeatmedia.com/index.html" />
         <option value="$PROJECT_DIR$/onvrt.com/assets/css/style.css" />
         <option value="$PROJECT_DIR$/onvrt.com/culture.html" />
-        <option value="$PROJECT_DIR$/onvrt.com/contact.html" />
         <option value="$PROJECT_DIR$/onvrt.com/index.html" />
         <option value="$PROJECT_DIR$/onvrt.com/portfolio.html" />
+        <option value="$PROJECT_DIR$/onvrt.com/contact.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -139,20 +335,13 @@
             <path>
               <item name="onvrt.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="onvrt.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="onvrt.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onvrt.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onvrt.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="onvrt.com" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onvrt.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="onvrt.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="onvrt.com" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +353,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551722897538" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551723705470" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -172,6 +361,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/onvrt.com/assets/img" />
     </key>
   </component>
@@ -199,16 +389,15 @@
       <updated>1550768173757</updated>
       <workItem from="1550768175406" duration="598000" />
       <workItem from="1551136699497" duration="1673000" />
-      <workItem from="1551720751292" duration="1380000" />
+      <workItem from="1551720751292" duration="2077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4102000" />
+    <option name="totallyTimeSpent" value="4799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,30 +436,47 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onvrt.com/assets/img/logo.png">
+    <entry file="file://$PROJECT_DIR$/oldonvrt/assets/img/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/onvrt.com/assets/img/jobs-top.png">
+    <entry file="file://$PROJECT_DIR$/oldonvrt/assets/img/jobs-top.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/onvrt.com/assets/img/logo.png">
+    <entry file="file://$PROJECT_DIR$/oldonvrt/assets/img/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/onvrt.com/culture.html">
+    <entry file="file://$PROJECT_DIR$/oldonvrt/culture.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
           <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onvrt.com/index.html">
+    <entry file="file://$PROJECT_DIR$/oldonvrt/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldonvrt/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="338" column="28" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldonvrt/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="162" column="94" selection-start-line="162" selection-start-column="94" selection-end-line="162" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldonvrt/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="723">
           <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
@@ -281,24 +487,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onvrt.com/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/js/easing.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/onvrt.com/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="338" column="28" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onvrt.com/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="162" column="34" lean-forward="true" selection-start-line="162" selection-start-column="34" selection-end-line="162" selection-end-column="34" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

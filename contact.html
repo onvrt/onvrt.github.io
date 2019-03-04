@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from onvrt.com/contact by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 21 Feb 2019 17:15:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="title" content="" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+		<title>Onvrt - Building the future of web communities today.</title>
+	<link rel="shortcut icon" href="assets/img/favicon.ico" />
+	<link type="text/css" rel="stylesheet" href="assets/css/reset.css" />
+	<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="assets/js/jquery.jscrollpane.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.js"></script>
+	<script type="text/javascript" src="assets/js/rhinoslider-1.05.min.js"></script>
+	<script type="text/javascript" src="assets/js/mousewheel.js"></script>
+	<script type="text/javascript" src="assets/js/easing.js"></script>
+	<script type="text/javascript" src="assets/js/functions.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.form.js"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2908152-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+<body class="contact-page" onload="mapStart()">
+	<!-- header // START -->
+<header>
+	<div class="wrapper clear">
+		<div class="logo-size">
+            <a href="index.html" class="home-logo">Onvrt</a>
+        </div>
+		<nav id="site-nav">
+			<ul class="menu-navigation">
+				<li class="menu-home"><a href="index.html" title="About">About</a></li>
+				<li class="menu-portfolio"><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+				<li class="menu-jobs"><a href="http://jobs.onvrt.com/" title="Jobs">Jobs</a></li>
+				<li class="menu-culture"><a href="culture.html" title="Culture">Culture</a></li>
+				<li class="menu-contact"><a href="contact.html" title="Contact">Contact</a></li>
+			</ul>
+			<h3 class="menu-toggle">Main Menu</h3>	
+		</nav>
+	</div>
+</header>
+<!-- header // END -->	
+	<!-- gmap // START -->
+	    <script type="text/javascript">   
+        <!-- 
+            var mapa;
+            var styles=[
+            {
+    			"stylers": [
+      				{ "saturation": -60 },
+      				{ "lightness": 33 },
+      				{ "visibility": "on" }]},
+      		{
+    			"featureType": "poi",
+    			"stylers": [
+      				{ "visibility": "off" }]}
+      		]
+            function addMarker(markerOptions)
+		    {
+		        markerOptions.map = mapa;
+		        var marker = new google.maps.Marker(markerOptions);
+		    }
+            function mapStart()  
+            {  
+                var coordinates = new google.maps.LatLng(26.110321,-80.259676);
+                var mapOptions = {
+                    zoom: 16,
+                    center: coordinates,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: styles
+                };
+				// custom marker                
+                mapa = new google.maps.Map(document.getElementById("map"), mapOptions); 
+		            var size = new google.maps.Size(62,55);
+		            var size_shadow = new google.maps.Size(69,45);
+		            var starting_point = new google.maps.Point(0,0);
+		            var attach_point = new google.maps.Point(16,50);
+		            var icon1 = new google.maps.MarkerImage("assets/img/mapicon.png", size, starting_point, attach_point);
+		            addMarker({position: new google.maps.LatLng(26.11009,-80.25575), title: 'Onvrt', icon: icon1});
+            }
+
+
+        $(document).ready(function() {
+
+	        $('#frmContact').ajaxForm({
+
+		        beforeSubmit:  function(arr, $form, option ) {
+
+			        $('#frmContact').find('p.error').text('').hide();
+			        
+			        $form.find('button').attr('disabled', 'disabled').text('Sending...');
+
+
+		        },
+
+		        success: function(data, status_text, xhr, frm) {
+
+			        if( data['status'] == 'error' )
+			        {
+				        $('#frmContact').find('p.error').text(data['error']).show();
+				        
+			        }
+			        else if(data['status'] == 'ok' )
+			        {
+						$('#step-1').fadeOut('fast', function() { $('#step-2').fadeIn(); });
+				        
+				        return;
+			        }
+			        else
+			        {
+				        // unknown error
+
+				        $('#frmContact').find('p.error').text('Server error, please try again.').show();
+			        }
+
+			        $('#frmContact').find('button').removeAttr('disabled').text('Send');
+		        }
+
+	        });
+        });
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        -->
+    </script> 
+	
+	<div id="gmap">
+		<div id="map"></div>
+		<div class="circle">
+			<div id="adress">
+				<h1>Onvrt, Inc.</h1>
+				<p>865 SW 78th Ave #100 <br>Plantation, FL 33324-3264 <br>(954) 689-8339</p>
+				<p>We are always looking for feedback and ways to improve our sites. We are always interested in hearing from advertisers. To contact us, please use the form, and one of our staff members will respond to your request.</p>
+				<button class="black-btn" onclick="location.href='mailto:contact@onvrt.com';">Contact Us</button>
+			</div>
+			<div id="contact-form">
+				<div id="step-1">
+					<form id="frmContact" action="http://onvrt.com/_contact_send.php" method="post">
+						<input name="name" type="hidden" value=""/>
+						<input name="email" type="hidden" value=""/>
+						<input name="message" type="hidden" value=""/>
+						<input name="651j34gae36j3rl" type="text" placeholder="First Name" onfocus="if(this.placeholder == 'First Name') { this.placeholder = ''; }"  onblur="if(this.placeholder == '') { this.placeholder = 'First Name'; }">
+						<input name="acby78c413s1nac" type="text" placeholder="Last Name" onfocus="if(this.placeholder == 'Last Name') { this.placeholder = ''; }"  onblur="if(this.placeholder == '') { this.placeholder = 'Last Name'; }">
+						<input name="j8d85hzfel2sz45" type="text" placeholder="E-mail adress" onfocus="if(this.placeholder == 'E-mail adress') { this.placeholder = ''; }"  onblur="if(this.placeholder == '') { this.placeholder = 'E-mail adress'; }">
+						<p class="error">Please enter valid e-mail address</p>
+						<textarea name="dc7j8mkyhth5vul" id="" cols="30" rows="10" placeholder="Message" onfocus="if(this.placeholder == 'Message') { this.placeholder = ''; }" onblur="if(this.placeholder == '') { this.placeholder = 'Message'; }"></textarea>
+						<button class="black-btn">Send</button>
+					</form>
+				</div>
+				<div id="step-2">
+					<p>Your message was sent, we will contact you soon.</p>
+				</div>
+					<a href="javascript:void(0);" class="form-close">close</a>
+
+			</div>
+		</div>
+		
+	</div>
+	<!-- gmap // END -->
+
+
+	<!-- footer // START !-->
+	<footer>
+		<div class="wrapper clear">
+			<div class="copyright">Copyright © Onvrt. All Rights Reserved</div>
+			<!--<nav id="social">-->
+				<!--<ul>-->
+					<!--<li><a href="http://www.linkedin.com/company/onvrt" class="social-in" title="linkedin" target="_blank">linkedin</a></li>-->
+					<!--<li><a href="https://twitter.com/onvrt" class="social-tw" title="twitter" target="_blank">twitter</a></li>-->
+					<!--&lt;!&ndash; <li><a href="https://www.facebook.com/groups/onvrt" class="social-fb" title="facebook" target="_blank">facebook</a></li> !&ndash;&gt;-->
+				<!--</ul>-->
+			<!--</nav>-->
+		</div>
+	</footer>
+	<!-- footer // END !-->
+</body>
+
+<!-- Mirrored from onvrt.com/contact by HTTrack Website Copier/3.x [XR&CO'2013], Thu, 21 Feb 2019 17:15:10 GMT -->
+</html>
