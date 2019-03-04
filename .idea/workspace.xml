@@ -1,101 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e65312f8-bb8d-47da-a744-d8b2370325aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/arrs.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/arrs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/circle-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/circle-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/circle-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/circle-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/circle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/close-sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/close-sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/footer-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/footer-top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/header-bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/header-bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/jobs-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/jobs-top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/mapicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/mapicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/pattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/pattern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/biker-planet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/biker-planet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/black-scene.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/black-scene.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/christian-lifestyle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/christian-lifestyle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/dating-seniors.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/dating-seniors.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/farmers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/farmers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/fitness.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/fitness.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/hsv-singles.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/hsv-singles.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/interracial-romance.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/interracial-romance.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/jsingles.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/jsingles.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/lutheran.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/lutheran.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/plus-sized-hearts.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/plus-sized-hearts.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/praying.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/praying.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/singlemoms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/singlemoms.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/tatoo-lovers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/tatoo-lovers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/portfolio/wheel-chair.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/portfolio/wheel-chair.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social-icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social-icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/39_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/39_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/39_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/39_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/41.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/42.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/43.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/44.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/45.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/46.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/47.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/48.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/49.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/50.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/51.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/52.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/53.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/54.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/55.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/56.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/57.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/58.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/59.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/60.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/61.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/61.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/social/62.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/social/62.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/testimonial-ana.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/testimonial-ana.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/testimonial-barbara-ray.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/testimonial-barbara-ray.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/testimonial-bosko.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/testimonial-bosko.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/testimonial-milos-radulovic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/testimonial-milos-radulovic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/toggle-arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/toggle-arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/visual-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/visual-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/visual.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/visual.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/img/xclose.png" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/img/xclose.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/js/easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/js/easing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/js/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/js/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/js/jquery.form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/js/jquery.jscrollpane.css" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/js/jquery.jscrollpane.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/js/jquery.jscrollpane.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/js/jquery.jscrollpane.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/js/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/js/modernizr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/js/mousewheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/js/mousewheel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/assets/js/rhinoslider-1.05.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/assets/js/rhinoslider-1.05.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/culture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstbeatmedia.com/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/onvrt.com/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hts-cache/doit.log" beforeDir="false" afterPath="$PROJECT_DIR$/hts-cache/doit.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hts-cache/new.lst" beforeDir="false" afterPath="$PROJECT_DIR$/hts-cache/new.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hts-cache/new.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hts-cache/new.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hts-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hts-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e65312f8-bb8d-47da-a744-d8b2370325aa" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -123,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onvrt.com/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1197">
-              <caret line="554" column="18" selection-start-line="554" selection-start-column="18" selection-end-line="554" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="661" column="25" selection-start-line="661" selection-start-column="25" selection-end-line="661" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -144,6 +50,7 @@
       <find>====</find>
       <find>Stashed</find>
       <find>&lt;&lt;&lt;&lt;&lt;</find>
+      <find>logo</find>
     </findStrings>
     <replaceStrings>
       <replace>Onvrt</replace>
@@ -203,6 +110,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551720871853" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -236,7 +144,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2418000" />
+    <option name="totallyTimeSpent" value="2722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -296,10 +204,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/onvrt.com/assets/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/onvrt.com/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
-          <caret line="554" column="18" selection-start-line="554" selection-start-column="18" selection-end-line="554" selection-end-column="18" />
+        <state relative-caret-position="408">
+          <caret line="661" column="25" selection-start-line="661" selection-start-column="25" selection-end-line="661" selection-end-column="25" />
         </state>
       </provider>
     </entry>
