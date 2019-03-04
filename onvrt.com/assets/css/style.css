@@ -43,8 +43,8 @@ header:after {
 .home-logo {
 	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
-	width: 267px;
-	height: 57px;
+	max-width: 267px;
+	max-height: 57px;
 	display: block;
 	float: left;
 	text-indent: -9999px;}
